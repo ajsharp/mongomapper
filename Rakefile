@@ -11,7 +11,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage    = "http://github.com/jnunemaker/mongomapper"
   gem.authors     = ["John Nunemaker"]
 
-  gem.add_dependency('activesupport', '>= 2.3')
+  gem.add_dependency('activesupport', '= 2.3.5')
   gem.add_dependency('mongo', '0.19.1')
   gem.add_dependency('jnunemaker-validatable', '1.8.3')
 
